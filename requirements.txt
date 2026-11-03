@@ -1,0 +1,9 @@
+pinecone>=7,<8
+chromadb>=1,<2
+langchain-core>=1,<2
+langchain-community>=0.4,<0.5
+langchain-classic>=1,<2
+langchain-text-splitters>=1,<2
+rank-bm25>=0.2,<1
+tiktoken>=0.8,<1
+python-dotenv>=1,<2

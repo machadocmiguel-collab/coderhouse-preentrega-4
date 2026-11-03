@@ -1,0 +1,66 @@
+{
+  "consultas": [
+    {
+      "pregunta": "¿Cómo ejecutar tareas concurrentes con asyncio?",
+      "recuperados": [
+        "asyncio.md",
+        "fastapi.md",
+        "chunking.md",
+        "pydantic.md",
+        "chromadb.md"
+      ],
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "pregunta": "¿Cómo validar datos con BaseModel y Field?",
+      "recuperados": [
+        "pydantic.md",
+        "chromadb.md",
+        "chunking.md",
+        "fastapi.md",
+        "asyncio.md"
+      ],
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "pregunta": "¿Qué hace un endpoint de FastAPI?",
+      "recuperados": [
+        "fastapi.md",
+        "pydantic.md",
+        "asyncio.md",
+        "chunking.md",
+        "chromadb.md"
+      ],
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "pregunta": "¿Qué es el solapamiento entre fragmentos de texto?",
+      "recuperados": [
+        "chunking.md",
+        "chromadb.md",
+        "pydantic.md",
+        "asyncio.md",
+        "fastapi.md"
+      ],
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    },
+    {
+      "pregunta": "¿Cómo conserva ChromaDB los vectores entre reinicios?",
+      "recuperados": [
+        "chromadb.md",
+        "chunking.md",
+        "fastapi.md",
+        "asyncio.md",
+        "pydantic.md"
+      ],
+      "precision@5": 0.2,
+      "recall@5": 1.0
+    }
+  ],
+  "precision@5": 0.2,
+  "recall@5": 1.0
+}

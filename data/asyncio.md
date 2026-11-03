@@ -1,0 +1,2 @@
+# asyncio
+Asyncio permite organizar operaciones de entrada y salida concurrentes en Python. Una función async def define una corrutina. await espera su resultado sin bloquear innecesariamente el bucle de eventos. asyncio.gather permite esperar varias corrutinas independientes. asyncio.run inicia la ejecución desde un script. La concurrencia de entrada y salida no acelera por sí misma operaciones intensivas de CPU.

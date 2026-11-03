@@ -1,0 +1,7 @@
+[
+  {"pregunta":"¿Cómo ejecutar tareas concurrentes con asyncio?","documentos_esperados":["asyncio.md"]},
+  {"pregunta":"¿Cómo validar datos con BaseModel y Field?","documentos_esperados":["pydantic.md"]},
+  {"pregunta":"¿Qué hace un endpoint de FastAPI?","documentos_esperados":["fastapi.md"]},
+  {"pregunta":"¿Qué es el solapamiento entre fragmentos de texto?","documentos_esperados":["chunking.md"]},
+  {"pregunta":"¿Cómo conserva ChromaDB los vectores entre reinicios?","documentos_esperados":["chromadb.md"]}
+]

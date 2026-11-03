@@ -1,0 +1,37 @@
+[
+  {
+    "id": "de689daf0c86302fa58bbcd10b430cd7f18324daeb65d0870da501a84b8eb391",
+    "text": "# asyncio\nAsyncio permite organizar operaciones de entrada y salida concurrentes en Python. Una función async def define una corrutina. await espera su resultado sin bloquear innecesariamente el bucle de eventos. asyncio.gather permite esperar varias corrutinas independientes. asyncio.run inicia la ejecución desde un script. La concurrencia de entrada y salida no acelera por sí misma operaciones intensivas de CPU.",
+    "source": "asyncio.md",
+    "page": 1,
+    "category": "python"
+  },
+  {
+    "id": "a51125ebad1d2c863d587ed9f4f7c2e23b5871ff302d90776ad5daca49dbb56f",
+    "text": "# ChromaDB\nChromaDB almacena vectores, documentos y metadatos. PersistentClient escribe los datos en una carpeta local para conservarlos entre reinicios. get permite buscar por identificador, mientras que query recupera vecinos por similitud vectorial. upsert inserta o actualiza un identificador y delete elimina registros. Debe usarse el mismo modelo de embeddings al indexar y consultar.",
+    "source": "chromadb.md",
+    "page": 1,
+    "category": "python"
+  },
+  {
+    "id": "112682a7b2d5063d5bfcf9eca3360faecb221a0a2d1488ca10d6a2b7480a5f97",
+    "text": "# Fragmentación de documentos\nEl chunking divide documentos extensos en unidades recuperables. RecursiveCharacterTextSplitter intenta conservar párrafos y oraciones utilizando separadores jerárquicos. El solapamiento repite una parte del final de un fragmento al comienzo del siguiente para conservar contexto. Es conveniente medir el tamaño con un tokenizador. Los metadatos deben mantener la fuente y posición del fragmento.",
+    "source": "chunking.md",
+    "page": 1,
+    "category": "python"
+  },
+  {
+    "id": "33e76f7b05cd0138957d7f9de75753e898df1ecbbaa55074faee9348dccc144c",
+    "text": "# FastAPI\nFastAPI permite construir APIs HTTP en Python. Un endpoint es una función asociada a una ruta y método HTTP. Los modelos Pydantic describen y validan solicitudes y respuestas. Una ruta async def puede esperar operaciones de red mediante await. HTTPException comunica errores al cliente con un código HTTP. Uvicorn permite servir la aplicación ASGI.",
+    "source": "fastapi.md",
+    "page": 1,
+    "category": "python"
+  },
+  {
+    "id": "b56a815c3343f1651f95fdfd64797b1d52e28a3026c5dd14911160faa18665f1",
+    "text": "# Pydantic\nBaseModel define campos y tipos de un contrato de datos. Field permite declarar límites como ge, le y min_length. Un valor incompatible provoca ValidationError. model_validate transforma y valida datos de entrada. model_dump produce un diccionario y model_dump_json serializa el resultado. Validar la estructura no demuestra que el contenido generado por un modelo sea verdadero.",
+    "source": "pydantic.md",
+    "page": 1,
+    "category": "python"
+  }
+]

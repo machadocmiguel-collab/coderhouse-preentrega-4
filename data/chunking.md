@@ -1,0 +1,2 @@
+# Fragmentación de documentos
+El chunking divide documentos extensos en unidades recuperables. RecursiveCharacterTextSplitter intenta conservar párrafos y oraciones utilizando separadores jerárquicos. El solapamiento repite una parte del final de un fragmento al comienzo del siguiente para conservar contexto. Es conveniente medir el tamaño con un tokenizador. Los metadatos deben mantener la fuente y posición del fragmento.
